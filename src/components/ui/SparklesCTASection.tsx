@@ -49,7 +49,7 @@ const SparklesCTASection = ({
               {description}
             </Text>
           )}
-          <Link href={"/contact"}>
+          <Link href={"/contact"} className={"flex justify-center"}>
             <Button text={"Contact me"} className={"mt-6 z-50 relative"} />
           </Link>
         </div>
