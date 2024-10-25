@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 🚀 Portfolio Website
 
-First, run the development server:
+Welcome to **Portfolio Website**, a modern and dynamic portfolio built with the latest technologies. This project showcases my skills and experience as a developer, featuring interactive animations, 3D elements, and a polished design—all powered by React, Next.js, and Three.js. Let's dive in!
+
+## 🛠️ Tech Stack
+
+This project leverages a powerful combination of technologies:
+
+- **Next.js**: SSR, SSG, and optimized performance.
+- **React 18**: The backbone of the app with hooks and concurrent features.
+- **Redux Toolkit**: Efficient state management.
+- **Tailwind CSS**: Utility-first styling for responsive design.
+- **Three.js / react-three-fiber**: 3D rendering and animations.
+- **Framer Motion**: Smooth animations and transitions.
+- **Lottie**: Beautiful vector animations.
+- **AOS**: Scroll animations for an engaging user experience.
+- **Day.js**: Handling date and time elegantly.
+
+## 🎨 Features
+
+- 🌐 **Multi-Language Support**: Built with `next-intl` for seamless internationalization.
+- 🖼️ **Interactive 3D Globe**: Powered by `three` and `three-globe`.
+- 💻 **Responsive Design**: Works perfectly on any device with `tailwindcss`.
+- 🚀 **Optimized Performance**: Thanks to Next.js' static and server-side rendering.
+- 🔥 **Animations Everywhere**: Beautiful animations with `AOS`, `Framer Motion`, and `Lottie`.
+- 📚 **Syntax Highlighting**: Neat code samples with `react-syntax-highlighter`.
+- 🗂️ **Redux Persist**: State persistence for seamless user experience.
+
+## 📦 Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/yourusername/portfolio-hm.git
+cd portfolio-hm
+npm install
+```
+
+## 🧑‍💻 Development
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your app will be running locally at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Build the optimized production version of the app:
 
-## Learn More
+```bash
+npm run build
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Key Libraries
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **@react-three**: Integrates Three.js with React for 3D visualizations.
+- **@mui/material**: Material UI for fast and customizable components.
+- **Swiper.js**: Modern touch slider for images and content.
+- **React Hook Form**: Simplified form handling with validation via Yup.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚀 Deployment
 
-## Deploy on Vercel
+To deploy the app, you can use platforms like Vercel or Netlify. Since this is a Next.js app, deployment is as simple as connecting your repo and hitting deploy!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For example, with [Vercel](https://vercel.com/):
+1. Connect your repository.
+2. Configure the environment variables if needed.
+3. Deploy!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🎉 What's Next?
+
+This is just the beginning! Here's what I'm planning to add in the future:
+- 📊 **Analytics Integration**: Google Analytics or Plausible for tracking.
+- 💬 **Live Chat Feature**: Real-time communication via socket.io.
+- 📷 **Photography Showcase**: A beautiful gallery to highlight my photography hobby.
+
+## 🤝 Contributing
+
+Feel free to submit issues and pull requests. Let's make this portfolio even better together!
+
+## 📫 Contact
+
+Want to reach out? Feel free to connect with me:
+
+- **Email**: contact@hubertmiernik.com
+- **LinkedIn**: [hubertmiernik](https://www.linkedin.com/in/hubert-miernik/)
+- **Website**: [hubertmiernik.com](https://hubertmiernik.com)
+---
+
+### Made with ❤️ by Hubert Miernik
