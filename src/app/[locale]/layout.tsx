@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   title:
     "Hubert Miernik | Next.js & React Developer - Building Dynamic Web Experiences",
   description:
-    "Hubert Miernik is a developer specializing in Next.js and React, focused on creating seamless web applications and dynamic user experiences using TypeScript, TailwindCSS, and modern frontend technologies. Explore my portfolio, featuring mobile app development, AI-powered tools, and 3D web projects. Let's collaborate on your next digital solution.",
+    "Skilled developer specializing in Next.js and React. Passionate about creating responsive, high-performance web applications. Using React, Next, TypeScript, TailwindCSS, and modern frontend practices. Explore a portfolio featuring interactive web projects, mobile apps, and AI-powered tools. Let's bring your vision to life with innovative web solutions.",
 };
 
 export default async function RootLayout({
