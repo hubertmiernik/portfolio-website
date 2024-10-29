@@ -12,7 +12,7 @@ html {
 
   .vertical-timeline::before {
     width: 2px;
-    height: 87%;
+    height: 88%;
     margin-top: 50px;
     box-shadow: var(--box-shadow-primary);
   }
@@ -46,7 +46,7 @@ html {
 @layer base {
   :root {
     --backgroundPrimary: #282828;
-    --backgroundSecondary: rgba(52, 52, 52, 0.6);
+    --backgroundSecondary: rgba(52, 52, 52, 0.6); /* #343434 */
     --backgroundSecondaryWithoutAlpha: rgba(47, 47, 47, 1);
     --primary: #fca311;
     --border: #3C3C3C;
@@ -113,6 +113,7 @@ html {
 
   .vertical-timeline-element-content-arrow {
     border-right-color: theme('colors.primary');
+    top: 17px;
   }
 
   .vertical-timeline-element-icon {
