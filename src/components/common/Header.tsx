@@ -5,7 +5,6 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/src/navigation";
 import Drawer from "@/src/components/common/Drawer";
 import Text from "@/src/components/common/Text";
-import LocaleSwitcher from "@/src/components/common/LocaleSwitcher";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -92,12 +91,12 @@ const Header = () => {
                   ))}
                 </ul>
               </nav>
-              <LocaleSwitcher />
+              {/*<LocaleSwitcher />*/}
             </div>
             <div
               className={"md:hidden flex items-center gap-4 relative z-[200]"}
             >
-              <LocaleSwitcher />
+              {/*<LocaleSwitcher />*/}
               <button
                 className="p-4 focus:outline-none"
                 onClick={toggleDrawer}
