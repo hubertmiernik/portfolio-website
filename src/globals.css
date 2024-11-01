@@ -12,8 +12,8 @@ html {
 
   .vertical-timeline::before {
     width: 2px;
-    height: 88%;
-    margin-top: 50px;
+    height: 90%;
+    margin-top: 45px;
     box-shadow: var(--box-shadow-primary);
   }
 
