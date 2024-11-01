@@ -18,7 +18,7 @@ const HeroSection = () => {
         croppedWord={5}
       />
 
-      <FlipWords words={[`Hi, I'm Hubert. Frontend Developer from Cracow.`]} />
+      <FlipWords words={[`Hi, I'm Hubert. Frontend Developer from Cracow`]} />
       <Link href={"/contact"}>
         <div data-aos={"zoom-in"}>
           <Button text={"Contact me"} className={"mt-6"} />
